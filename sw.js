@@ -6,17 +6,13 @@ self.addEventListener("install", e => {
             //upload into cache
             return cache.addAll([
                 "./",
-                ".style.css",
-                "./js/init.js",
-                "./js/script.js",
-                "./js/materialize.js",
-                "./css/materialize.css",
-                "./src/mission.css",
-                "./images/books.jpg",
-                "./images/book1.png",
-                "./images/book2.png"
+                "style.css",
+                "js/init.js",
+                "js/script.js",
+                "js/materialize.js",
+                "css/materialize.css",
             ]).then(() => self.skipWaiting());
-        })
+        }),
     );
 })
 
