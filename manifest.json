@@ -11,13 +11,28 @@
     "version": "1.0",
     "icons": [
         {
-            "src": "images/book1.png",
-            "sizes": "512x512",
+            "src": "images/ebook192.png",
+            "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "images/book2.png",
+            "src": "images/ebook308.png",
+            "sizes": "308x308",
+            "type": "image/png"
+        },
+        {
+            "src": "images/ebook.png",
             "sizes": "500x500",
+            "type": "image/png"
+        },
+        {
+            "src": "images/ebook500.png",
+            "sizes": "500x500",
+            "type": "image/png"
+        },
+        {
+            "src": "images/ebook512.png",
+            "sizes": "512x512",
             "type": "image/png"
         }
     ]
