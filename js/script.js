@@ -26,6 +26,7 @@ window.addEventListener("load", () => {
 document.addEventListener('DOMContentLoaded', function () {
     var elems = document.querySelectorAll('.slider');
     var instances = M.Slider.init(elems, options);
+
 });
 
 // Or with jQuery
@@ -33,4 +34,4 @@ document.addEventListener('DOMContentLoaded', function () {
 $(document).ready(function () {
     $('.slider').slider();
 });
-instance.start();
+instances.start();
