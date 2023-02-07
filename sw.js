@@ -6,13 +6,15 @@ self.addEventListener("install", e => {
             //upload into cache
             return cache.addAll([
                 "./",
-                "./css/style.css",
+                ".style.css",
                 "./js/init.js",
-                "./images/canon.jpg",
-                "./images/epson.jpg",
-                "./images/scan.jpg",
-                "./images/dammykeys04_logo.png",
-                "./images/dammykeys04.png"
+                "./js/script.js",
+                "./js/materialize.js",
+                "./css/materialize.css",
+                "./src/mission.css",
+                "./images/books.jpg",
+                "./images/book1.png",
+                "./images/book2.png"
             ]).then(() => self.skipWaiting());
         })
     );
