@@ -1,22 +1,22 @@
 {
-    "name": "Dammykeys04",
-    "short_name": "Dammykeys",
+    "name": "eBooks",
+    "short_name": "eBooks",
     "id": "/",
     "start_url": "index.html",
     "orientation": "portrait-primary",
-    "description": "Payment Platform",
+    "description": "For ebook showcase and blog posts.",
     "background_color": "#cfd8dc",
-    "theme_color": "#ffffff",
+    "theme_color": "#e57373",
     "display": "standalone",
     "version": "1.0",
     "icons": [
         {
-            "src": "images/dammykeys04.png",
+            "src": "images/book1.png",
             "sizes": "512x512",
             "type": "image/png"
         },
         {
-            "src": "images/dammykeys04_logo.png",
+            "src": "images/book2.png",
             "sizes": "500x500",
             "type": "image/png"
         }
