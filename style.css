@@ -6,6 +6,22 @@
  * Made By MaterializeCSS.com
  */
 
+#logo {
+    height: 65px;
+    width: 65px;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+    #logo {
+        height: 54px;
+        width: 54px;
+        border: 3px solid black;
+        border-radius: 50%;
+    }
+}
+
 .preloader {
     background-color: rgba(0, 0, 0, 0.5);
     position: fixed;
